@@ -17,7 +17,11 @@ module.exports = {
             },
             desiredCapabilities: {
                 browserName: 'chrome'
-            }
+            },
+              test_workers: {
+                  enabled: true,
+                  workers: "auto"
+                }
         }
     }
 };

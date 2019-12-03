@@ -1,10 +1,8 @@
-#language: pt
+Feature: Fill Email
 
-Funcionalidade: Preencher Email
+Scenario: Fill Email Successfully
 
-Cenario: Preencher Email com sucesso
-
-Dado estou na home Gympass
-Quando clico no botão entrar
-Então consigo preencher o Email
-E ver o alerta que não foi localizado o email
+Given I'm at home Gympass
+When I click the enter button
+Then I can fill in the Email
+And see the alert that was not found the email

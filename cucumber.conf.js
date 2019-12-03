@@ -15,7 +15,7 @@ BeforeAll(async () => {
 });
 
 Before(function () {
-  client.resizeWindow(1920, 1080)
+  client.resizeWindow(1366, 768)
 })
 
 AfterAll(async () => {
