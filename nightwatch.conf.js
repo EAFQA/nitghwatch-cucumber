@@ -9,7 +9,7 @@ module.exports = {
                 enabled: true,
                 path: 'screenshots'
             },
-            launch_url: 'http://www.gympass.com.br',
+           launch_url: 'https://www.gympass-staging.com/',
             webdriver: {
                 start_process: true,
                 server_path: chromedriver.path,
