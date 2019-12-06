@@ -6,6 +6,7 @@ var academias = {
     linkMessage: function (message) {
         return this
             .waitForElementPresent('@buttonFilter', message)
+            .click('@buttonFilter')
     }
 }
 

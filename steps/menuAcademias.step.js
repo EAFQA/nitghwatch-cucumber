@@ -10,3 +10,18 @@ When('I click on my Gyms', function () {
     let menuacademia = client.page.menuacademias()
     return menuacademia.linkMessage(message)
   });
+
+  Then('click Aulas', function () {                                       
+   let select = client.page.mapeamentoacademias()
+    return select.selectAula()                                                     
+  });                                                                     
+
+  Then('click Bairro', function () {                                    
+    let select = client.page.mapeamentoacademias()
+    return select.selectEndereco()                                                
+  });                                                                   
+
+  Then('click Cidades', function () {
+    let select = client.page.mapeamentoacademias()
+    return select.selectCidade()
+  });
