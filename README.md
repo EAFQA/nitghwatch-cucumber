@@ -1,2 +1,2 @@
-# zombie-cucumber for Nightwatch
+# cucumber for Nightwatch
 
