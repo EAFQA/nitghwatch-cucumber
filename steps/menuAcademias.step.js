@@ -14,7 +14,8 @@ When('I click on my Gyms', function () {
   Then('click Aulas', function () {                                       
    let select = client.page.mapeamentoacademias()
     return select.selectAula()                                                     
-  });                                                                     
+  });  
+                                                                     
 
   Then('click Bairro', function () {                                    
     let select = client.page.mapeamentoacademias()

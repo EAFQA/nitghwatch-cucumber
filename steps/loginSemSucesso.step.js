@@ -13,6 +13,7 @@ When('I click the enter button', function () {
   return email.button()
 });
 
+
 Then('I can fill in the Email', function () {
   let email = client.page.login()
   return email.emailsettings('abcdefg')
